@@ -1,9 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/L6h-7ORA)
-# Homework 1: Rasterizer
+# Rasterizer
 
-> Spring 2024
+> Jan 2024
 
-[Homework Specs](https://cs184.eecs.berkeley.edu/sp24/docs/hw1-spec)
+[Specs](https://cs184.eecs.berkeley.edu/sp24/docs/hw1-spec)
+
+This is my personal writeup after implementing these functions that can achieve the funtionality of rasterizing.
 
 #### Task1:
 1. This task helps me fully understand of how does the rasterizing work instead of conceptually. I rasterize the triangles by sampling each pixel within the range of x_values and y_values, by choosing the center of each pixel and sample it. Then I applied the barycentric coordinates to solve the issue of winding order, because barycentric coordinates are always nonnegative for points inside the triangle, regardless of the winding order of the vertices. Finally, if the alpha, beta, gamma are greater or equal to zero, x and y are greater or equal to zero and within the bounding box, we can fill color for this pixel.
