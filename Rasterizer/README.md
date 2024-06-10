@@ -4,7 +4,7 @@
 
 [Specs](https://cs184.eecs.berkeley.edu/sp24/docs/hw1-spec)
 
-This is my personal writeup after implementing these functions that can achieve the funtionality of rasterizing.
+This is my personal writeup after implementing these functions to achieve the funtionality of rasterizing.
 
 #### Task1:
 1. This task helps me fully understand of how does the rasterizing work instead of conceptually. I rasterize the triangles by sampling each pixel within the range of x_values and y_values, by choosing the center of each pixel and sample it. Then I applied the barycentric coordinates to solve the issue of winding order, because barycentric coordinates are always nonnegative for points inside the triangle, regardless of the winding order of the vertices. Finally, if the alpha, beta, gamma are greater or equal to zero, x and y are greater or equal to zero and within the bounding box, we can fill color for this pixel.
