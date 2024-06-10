@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/jaychen/Desktop/CS184/hw0-intro/CGL/deps/glfw/src
+  /usr/local/Cellar/cmake/3.28.1/bin/cmake -P /Users/jaychen/Desktop/CS184/hw0-intro/CGL/deps/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/jaychen/Desktop/CS184/hw0-intro/CGL/deps/glfw/src
+  /usr/local/Cellar/cmake/3.28.1/bin/cmake -P /Users/jaychen/Desktop/CS184/hw0-intro/CGL/deps/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd /Users/jaychen/Desktop/CS184/hw0-intro/CGL/deps/glfw/src
+  /usr/local/Cellar/cmake/3.28.1/bin/cmake -P /Users/jaychen/Desktop/CS184/hw0-intro/CGL/deps/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd /Users/jaychen/Desktop/CS184/hw0-intro/CGL/deps/glfw/src
+  /usr/local/Cellar/cmake/3.28.1/bin/cmake -P /Users/jaychen/Desktop/CS184/hw0-intro/CGL/deps/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+

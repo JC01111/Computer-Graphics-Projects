@@ -1,0 +1,12 @@
+Target dependency graph (5 targets)
+Target 'draw' in project 'Assignment1'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'Assignment1'
+➜ Explicit dependency on target 'CGL' in project 'Assignment1'
+➜ Explicit dependency on target 'glew' in project 'Assignment1'
+➜ Explicit dependency on target 'glfw' in project 'Assignment1'
+Target 'CGL' in project 'Assignment1'
+➜ Explicit dependency on target 'glew' in project 'Assignment1'
+➜ Explicit dependency on target 'glfw' in project 'Assignment1'
+Target 'glfw' in project 'Assignment1' (no dependencies)
+Target 'ZERO_CHECK' in project 'Assignment1' (no dependencies)
+Target 'glew' in project 'Assignment1' (no dependencies)

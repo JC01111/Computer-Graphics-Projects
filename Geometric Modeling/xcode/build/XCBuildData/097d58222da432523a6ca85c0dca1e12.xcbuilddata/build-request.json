@@ -1,0 +1,77 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "98c153ba95844816f68f84b3bab96bfe395d01fec90f2b0b87c7abca524c9ede"
+    },
+    {
+      "guid" : "98c153ba95844816f68f84b3bab96bfe49f6d9d09f00e3c83152ddef935c8b06"
+    },
+    {
+      "guid" : "98c153ba95844816f68f84b3bab96bfe0e6681070643598358aa94e9b6647685"
+    },
+    {
+      "guid" : "98c153ba95844816f68f84b3bab96bfe8c776c3abcced8dc21856d11a1c55f2b"
+    },
+    {
+      "guid" : "98c153ba95844816f68f84b3bab96bfe9da06e8b6b22ef1b65933195319429d3"
+    },
+    {
+      "guid" : "98c153ba95844816f68f84b3bab96bfe81d8a35d8234067b44235f162b9fa315"
+    },
+    {
+      "guid" : "98c153ba95844816f68f84b3bab96bfead821e3a01e18b4298bd80f58b4b6320"
+    },
+    {
+      "guid" : "98c153ba95844816f68f84b3bab96bfe4c97f83c1234b6096e5060fb1cadc74a"
+    }
+  ],
+  "containerPath" : "/Users/jaychen/Desktop/CS184/hw2-meshedit-sp24-j-c-1/xcode/ColladaViewer.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/jaychen/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jaychen/Library/Developer/Xcode/DerivedData/ColladaViewer-bzzxwabuxupamufsvbgbghonbhti/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jaychen/Library/Developer/Xcode/DerivedData/ColladaViewer-bzzxwabuxupamufsvbgbghonbhti/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

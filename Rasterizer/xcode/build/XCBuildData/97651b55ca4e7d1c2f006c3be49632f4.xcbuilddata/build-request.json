@@ -1,0 +1,77 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2dc416c1bc62d107dae06eab0097673ec"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2df997a7127e6c087fb951057690dba86"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2bf0c8297c69005481eb65b9d49a3f514"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2d6dd512ca2593256dee02fc093e62fae"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a245e0ed11db317907d314bc1722f0bf10"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a276e8fdd16bf86547245753cdc1b296e8"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2de22baa08c511ab65c2537f1cd0e873a"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2bd10956fe719bd161d363318eda62b03"
+    }
+  ],
+  "containerPath" : "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/Assignment1.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/jaychen/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jaychen/Library/Developer/Xcode/DerivedData/Assignment1-clwpqkmroelyseczvukevwuxspma/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jaychen/Library/Developer/Xcode/DerivedData/Assignment1-clwpqkmroelyseczvukevwuxspma/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

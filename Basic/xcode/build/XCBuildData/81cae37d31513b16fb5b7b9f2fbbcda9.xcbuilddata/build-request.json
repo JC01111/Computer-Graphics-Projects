@@ -1,0 +1,80 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "084da20751da2c983dfa884796a9fcd7169d72ed125eeaacb651a2e1ec2df7e3"
+    },
+    {
+      "guid" : "084da20751da2c983dfa884796a9fcd763dbdd10294f0f28d3daf1e95973f2da"
+    },
+    {
+      "guid" : "084da20751da2c983dfa884796a9fcd7d2cd1aab96fba6c2fdebfd8168af07a2"
+    },
+    {
+      "guid" : "084da20751da2c983dfa884796a9fcd7e0f2e9231a6943cfba9063e5b4c0bd26"
+    },
+    {
+      "guid" : "084da20751da2c983dfa884796a9fcd7f30b9a7ae93b17c709cb9ec62298b7ed"
+    },
+    {
+      "guid" : "084da20751da2c983dfa884796a9fcd705e63a41b35a205ce4b12b83f3ac196c"
+    },
+    {
+      "guid" : "084da20751da2c983dfa884796a9fcd7d21c221a24ce8a0e85bd4c059e70ba60"
+    },
+    {
+      "guid" : "084da20751da2c983dfa884796a9fcd7830d105e70b54b9757e519ec7dbdb24a"
+    },
+    {
+      "guid" : "084da20751da2c983dfa884796a9fcd71b96ef866851674bca1cd3f97fa6a772"
+    }
+  ],
+  "containerPath" : "/Users/jaychen/Desktop/CS184/hw0-intro/xcode/HW0.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/jaychen/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jaychen/Library/Developer/Xcode/DerivedData/HW0-arwmutqwksyevefbhchtlibkduyl/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jaychen/Library/Developer/Xcode/DerivedData/HW0-arwmutqwksyevefbhchtlibkduyl/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

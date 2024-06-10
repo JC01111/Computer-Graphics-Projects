@@ -1,0 +1,16 @@
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/draw.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/install.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/CMakeFiles/CGL.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/CMakeFiles/install.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/CMakeFiles/ALL_BUILD.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/CMakeFiles/ZERO_CHECK.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glew/CMakeFiles/glew.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glew/CMakeFiles/install.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw/CMakeFiles/uninstall.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw/CMakeFiles/install.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw/src/CMakeFiles/glfw.dir
+/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw/src/CMakeFiles/install.dir

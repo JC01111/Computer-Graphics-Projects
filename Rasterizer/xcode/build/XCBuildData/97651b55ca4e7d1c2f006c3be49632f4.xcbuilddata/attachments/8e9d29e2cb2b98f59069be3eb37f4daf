@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.28.1/bin/cmake -P /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.28.1/bin/cmake -P /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.28.1/bin/cmake -P /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.28.1/bin/cmake -P /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+

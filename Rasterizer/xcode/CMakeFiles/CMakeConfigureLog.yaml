@@ -1,0 +1,1073 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 23.2.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+      
+      User defaults from command line:
+          IDEPackageSupportUseBuiltinSCM = YES
+      
+      ComputeTargetDependencyGraph
+      warning: Building targets in manual order is deprecated - check "Parallelize build for command-line builds" in the project editor, or set DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING in any of the targets in the current build to suppress this warning
+      note: Target dependency graph (1 target)
+          Target 'CompilerIdC' in project 'CompilerIdC' (no dependencies)
+      
+      GatherProvisioningInputs
+      
+      CreateBuildDescription
+      Build description signature: 641cddf48cac91b4fb8854379aec4afb
+      Build description path: /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/./XCBuildData/641cddf48cac91b4fb8854379aec4afb.xcbuilddata
+      
+      CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.xcodeproj
+          builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+      
+      ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.xcodeproj
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+      
+      CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/EagerLinkingTBDs/Debug
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.xcodeproj
+          builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/EagerLinkingTBDs/Debug
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist
+      
+      ProcessProductPackaging "" /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          
+          Entitlements:
+          
+          {
+          "com.apple.application-identifier" = "";
+          "com.apple.security.get-task-allow" = 1;
+      }
+          
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent
+      
+      ProcessProductPackagingDER /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          /usr/bin/derq query -f xml -i /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der --raw
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+      
+      CompileC /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -target x86_64-apple-macos14.2 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility\\=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/include -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC -MMD -MT dependencies -MF /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+      
+      Ld /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC normal (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-macos14.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Os -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      PhaseScriptExecution Run\\ Script /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          /bin/sh -c /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=x86_64
+      
+      CodeSign /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          
+          Signing Identity:     "-"
+          
+          /usr/bin/codesign --force --sign - --entitlements /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent --timestamp\\=none --generate-entitlement-der /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC
+      
+      RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC
+          builtin-RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC
+      
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+      note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdC' from project 'CompilerIdC')
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+      
+      User defaults from command line:
+          IDEPackageSupportUseBuiltinSCM = YES
+      
+      ComputeTargetDependencyGraph
+      warning: Building targets in manual order is deprecated - check "Parallelize build for command-line builds" in the project editor, or set DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING in any of the targets in the current build to suppress this warning
+      note: Target dependency graph (1 target)
+          Target 'CompilerIdCXX' in project 'CompilerIdCXX' (no dependencies)
+      
+      GatherProvisioningInputs
+      
+      CreateBuildDescription
+      Build description signature: 33f01d6f95c020ca98a8a951a4ad8d2d
+      Build description path: /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/./XCBuildData/33f01d6f95c020ca98a8a951a4ad8d2d.xcbuilddata
+      
+      CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+      
+      ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+      
+      CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/EagerLinkingTBDs/Debug
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/EagerLinkingTBDs/Debug
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist
+      
+      ProcessProductPackaging "" /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          
+          Entitlements:
+          
+          {
+          "com.apple.application-identifier" = "";
+          "com.apple.security.get-task-allow" = 1;
+      }
+          
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent
+      
+      ProcessProductPackagingDER /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          /usr/bin/derq query -f xml -i /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der --raw
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+      
+      CompileC /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -target x86_64-apple-macos14.2 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/include -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX -MMD -MT dependencies -MF /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+      
+      Ld /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX normal (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target x86_64-apple-macos14.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Os -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX
+      
+      WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      PhaseScriptExecution Run\\ Script /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          /bin/sh -c /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=x86_64
+      
+      CodeSign /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          
+          Signing Identity:     "-"
+          
+          /usr/bin/codesign --force --sign - --entitlements /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent --timestamp\\=none --generate-entitlement-der /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX
+      
+      RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX
+          builtin-RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX
+      
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO"
+      binary: "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3fb42 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3fb42 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_3fb42' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        Build description signature: b4df2844fdb89e29946fa8b18fdf883f
+        Build description path: /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/XCBuildData/b4df2844fdb89e29946fa8b18fdf883f.xcbuilddata
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList (in target 'cmTC_3fb42' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO
+            write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList
+        
+        CompileC /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_3fb42' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -target x86_64-apple-macos14.2 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/include -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources-normal/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: x86_64-apple-macos14.2
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/include -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources-normal/x86_64 -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources/x86_64 -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o -x c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.2.0
+        ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/include"
+        ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources-normal/x86_64"
+        ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources/x86_64"
+        ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        Ld /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42 normal (in target 'cmTC_3fb42' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-macos14.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_dependency_info.dat -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: x86_64-apple-macos14.2
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version macos 14.2.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -reproducible -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList -object_path_lto /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug
+        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+        BUILD 05:26:33 Dec  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        Library search paths:
+        	/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug
+        	/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug
+        Framework search paths:
+        	/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug
+        	/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug
+        
+        RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42 (in target 'cmTC_3fb42' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO
+            builtin-RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3fb42 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: [Command line invocation:]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3fb42 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+        ignore line: []
+        ignore line: [ComputeTargetDependencyGraph]
+        ignore line: [note: Building targets in dependency order]
+        ignore line: [note: Target dependency graph (1 target)]
+        ignore line: [    Target 'cmTC_3fb42' in project 'CMAKE_TRY_COMPILE' (no dependencies)]
+        ignore line: []
+        ignore line: [GatherProvisioningInputs]
+        ignore line: []
+        ignore line: [CreateBuildDescription]
+        ignore line: [Build description signature: b4df2844fdb89e29946fa8b18fdf883f]
+        ignore line: [Build description path: /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/XCBuildData/b4df2844fdb89e29946fa8b18fdf883f.xcbuilddata]
+        ignore line: []
+        ignore line: [ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList (in target 'cmTC_3fb42' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO]
+        ignore line: [    write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList]
+        ignore line: []
+        ignore line: [CompileC /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_3fb42' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -target x86_64-apple-macos14.2 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/include -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources-normal/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: x86_64-apple-macos14.2]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/include -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources-normal/x86_64 -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources/x86_64 -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o -x c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.2.0]
+        ignore line: [ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources-normal/x86_64"]
+        ignore line: [ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources/x86_64"]
+        ignore line: [ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [Ld /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42 normal (in target 'cmTC_3fb42' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-macos14.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_dependency_info.dat -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: x86_64-apple-macos14.2]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version macos 14.2.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -reproducible -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList -object_path_lto /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug]
+                  to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version macos 14.2.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -reproducible -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList -object_path_lto /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version macos 14.2.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug -reproducible -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList -object_path_lto /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-no_deduplicate] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.2.0] ==> ignore
+          arg [14.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk] ==> ignore
+          arg [-O0] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug/cmTC_3fb42] ==> ignore
+          arg [-L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug] ==> dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug]
+          arg [-reproducible] ==> ignore
+          arg [-filelist] ==> ignore
+          arg [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_lto.o] ==> obj [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_dependency_info.dat] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [-F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug] ==> ignore
+        Library search paths: [;/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug;/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug]
+        Framework search paths: [;/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug;/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug] ==> [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug], skipping non-system directory
+        collapse library dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug] ==> [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse library dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug] ==> [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug], skipping non-system directory
+        collapse framework dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug] ==> [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse framework dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug] ==> [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/Debug], skipping non-system directory
+        implicit libs: []
+        implicit objs: [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-JRVluO/build/cmTC_3fb42.build/Debug/Objects-normal/x86_64/cmTC_3fb42_lto.o]
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe"
+      binary: "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06b04 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06b04 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_06b04' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        Build description signature: 4b24333bb38cc2ae414effd7fd523cc0
+        Build description path: /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/XCBuildData/4b24333bb38cc2ae414effd7fd523cc0.xcbuilddata
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList (in target 'cmTC_06b04' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe
+            write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList
+        
+        CompileC /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_06b04' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -target x86_64-apple-macos14.2 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/include -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources-normal/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: x86_64-apple-macos14.2
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/include -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources-normal/x86_64 -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources/x86_64 -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o -x c++ /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.2.0
+        ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/include"
+        ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources-normal/x86_64"
+        ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources/x86_64"
+        ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        Ld /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04 normal (in target 'cmTC_06b04' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target x86_64-apple-macos14.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_dependency_info.dat -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: x86_64-apple-macos14.2
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version macos 14.2.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -reproducible -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList -object_path_lto /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug
+        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+        BUILD 05:26:33 Dec  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        Library search paths:
+        	/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug
+        	/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug
+        Framework search paths:
+        	/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug
+        	/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug
+        
+        RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04 (in target 'cmTC_06b04' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe
+            builtin-RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06b04 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: [Command line invocation:]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06b04 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+        ignore line: []
+        ignore line: [ComputeTargetDependencyGraph]
+        ignore line: [note: Building targets in dependency order]
+        ignore line: [note: Target dependency graph (1 target)]
+        ignore line: [    Target 'cmTC_06b04' in project 'CMAKE_TRY_COMPILE' (no dependencies)]
+        ignore line: []
+        ignore line: [GatherProvisioningInputs]
+        ignore line: []
+        ignore line: [CreateBuildDescription]
+        ignore line: [Build description signature: 4b24333bb38cc2ae414effd7fd523cc0]
+        ignore line: [Build description path: /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/XCBuildData/4b24333bb38cc2ae414effd7fd523cc0.xcbuilddata]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug]
+        ignore line: []
+        ignore line: [ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList (in target 'cmTC_06b04' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe]
+        ignore line: [    write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList]
+        ignore line: []
+        ignore line: [CompileC /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_06b04' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -target x86_64-apple-macos14.2 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/include -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources-normal/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: x86_64-apple-macos14.2]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/include -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources-normal/x86_64 -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources/x86_64 -I /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o -x c++ /usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.2.0]
+        ignore line: [ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources-normal/x86_64"]
+        ignore line: [ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources/x86_64"]
+        ignore line: [ignoring nonexistent directory "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [Ld /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04 normal (in target 'cmTC_06b04' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target x86_64-apple-macos14.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_dependency_info.dat -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: x86_64-apple-macos14.2]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version macos 14.2.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -reproducible -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList -object_path_lto /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug]
+                  to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version macos 14.2.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -reproducible -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList -object_path_lto /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version macos 14.2.0 14.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug -reproducible -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList -object_path_lto /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-no_deduplicate] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.2.0] ==> ignore
+          arg [14.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk] ==> ignore
+          arg [-O0] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug/cmTC_06b04] ==> ignore
+          arg [-L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug] ==> dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug]
+          arg [-reproducible] ==> ignore
+          arg [-filelist] ==> ignore
+          arg [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_lto.o] ==> obj [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_dependency_info.dat] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [-F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug] ==> ignore
+        Library search paths: [;/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug;/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug]
+        Framework search paths: [;/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug;/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug] ==> [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug], skipping non-system directory
+        collapse library dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug] ==> [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse library dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug] ==> [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug], skipping non-system directory
+        collapse framework dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug] ==> [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse framework dir [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug] ==> [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/Debug], skipping non-system directory
+        implicit libs: [c++]
+        implicit objs: [/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-qMvfFe/build/cmTC_06b04.build/Debug/Objects-normal/x86_64/cmTC_06b04_lto.o]
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CheckCXXSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "CGL/find_avx.cmake:19 (check_cxx_source_runs)"
+      - "CGL/CMakeLists.txt:37 (CHECK_FOR_AVX)"
+    checks:
+      - "Performing Test HAVE_AVX_EXTENSIONS"
+    directories:
+      source: "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY"
+      binary: "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_AVX_EXTENSIONS_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_35b08 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_35b08 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_35b08' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        Build description signature: 934131d04814af4d33340117a72eec7d
+        Build description path: /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/XCBuildData/934131d04814af4d33340117a72eec7d.xcbuilddata
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/Debug
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/Debug
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/EagerLinkingTBDs/Debug
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/Objects-normal/x86_64/cmTC_35b08.LinkFileList (in target 'cmTC_35b08' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY
+            write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/Objects-normal/x86_64/cmTC_35b08.LinkFileList
+        
+        CompileC /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/Objects-normal/x86_64/src.o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_35b08' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -target x86_64-apple-macos14.2 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -DHAVE_AVX_EXTENSIONS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/Debug/include -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/DerivedSources-normal/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/DerivedSources/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/Debug -mavx -MMD -MT dependencies -MF /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/Objects-normal/x86_64/src.dia -c /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/src.cxx -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/Objects-normal/x86_64/src.o
+        
+        Ld /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/Debug/cmTC_35b08 normal (in target 'cmTC_35b08' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target x86_64-apple-macos14.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/Debug -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/Objects-normal/x86_64/cmTC_35b08.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/Objects-normal/x86_64/cmTC_35b08_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/build/cmTC_35b08.build/Debug/Objects-normal/x86_64/cmTC_35b08_dependency_info.dat -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/Debug/cmTC_35b08
+        
+        RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/Debug/cmTC_35b08 (in target 'cmTC_35b08' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY
+            builtin-RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-OpcLZY/Debug/cmTC_35b08
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+    runResult:
+      variable: "HAVE_AVX_EXTENSIONS_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CheckCXXSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "CGL/find_avx.cmake:50 (check_cxx_source_runs)"
+      - "CGL/CMakeLists.txt:37 (CHECK_FOR_AVX)"
+    checks:
+      - "Performing Test HAVE_AVX2_EXTENSIONS"
+    directories:
+      source: "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA"
+      binary: "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_AVX2_EXTENSIONS_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_c4667 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_c4667 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_c4667' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        Build description signature: 23e448c94bafc1ed8a49d1fe3e47e7d5
+        Build description path: /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/XCBuildData/23e448c94bafc1ed8a49d1fe3e47e7d5.xcbuilddata
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/Debug
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/Debug
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/EagerLinkingTBDs/Debug
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/Objects-normal/x86_64/cmTC_c4667.LinkFileList (in target 'cmTC_c4667' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA
+            write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/Objects-normal/x86_64/cmTC_c4667.LinkFileList
+        
+        CompileC /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/Objects-normal/x86_64/src.o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_c4667' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -target x86_64-apple-macos14.2 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -DHAVE_AVX2_EXTENSIONS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/Debug/include -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/DerivedSources-normal/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/DerivedSources/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/Debug -mavx2 -MMD -MT dependencies -MF /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/Objects-normal/x86_64/src.dia -c /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/src.cxx -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/Objects-normal/x86_64/src.o
+        
+        Ld /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/Debug/cmTC_c4667 normal (in target 'cmTC_c4667' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target x86_64-apple-macos14.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/Debug -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/Objects-normal/x86_64/cmTC_c4667.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/Objects-normal/x86_64/cmTC_c4667_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/build/cmTC_c4667.build/Debug/Objects-normal/x86_64/cmTC_c4667_dependency_info.dat -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/Debug/cmTC_c4667
+        
+        RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/Debug/cmTC_c4667 (in target 'cmTC_c4667' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA
+            builtin-RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-HxoHUA/Debug/cmTC_c4667
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+    runResult:
+      variable: "HAVE_AVX2_EXTENSIONS_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/Cellar/cmake/3.28.1/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CGL/CMakeLists.txt:97 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh"
+      binary: "/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fPIC"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_53642 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_53642 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_53642' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        Build description signature: 13ea48d052b2fd0dd6cb2192ad4a36b6
+        Build description path: /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/XCBuildData/13ea48d052b2fd0dd6cb2192ad4a36b6.xcbuilddata
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/Debug
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/Debug
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache
+        
+        CreateBuildDirectory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/EagerLinkingTBDs/Debug
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/Objects-normal/x86_64/cmTC_53642.LinkFileList (in target 'cmTC_53642' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh
+            write-file /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/Objects-normal/x86_64/cmTC_53642.LinkFileList
+        
+        CompileC /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/Objects-normal/x86_64/src.o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_53642' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/5s/rf4wt7xs2svgbyyq7fwkmqww0000gn/C/com.apple.DeveloperTools/15.2-15C500b/Xcode/SDKStatCaches.noindex/macosx14.2-23C53-df0db8920d7ae99241a1bc0f08d2dced.sdkstatcache -target x86_64-apple-macos14.2 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\\=\\"Debug\\" -DCMAKE_HAVE_LIBC_PTHREAD -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/Debug/include -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/DerivedSources-normal/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/DerivedSources/x86_64 -I/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/DerivedSources -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/Debug -fPIC -mavx2 -MMD -MT dependencies -MF /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/Objects-normal/x86_64/src.dia -c /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/src.c -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/Objects-normal/x86_64/src.o
+        
+        Ld /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/Debug/cmTC_53642 normal (in target 'cmTC_53642' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-macos14.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -O0 -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/EagerLinkingTBDs/Debug -L/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/EagerLinkingTBDs/Debug -F/Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/Debug -filelist /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/Objects-normal/x86_64/cmTC_53642.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/Objects-normal/x86_64/cmTC_53642_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/build/cmTC_53642.build/Debug/Objects-normal/x86_64/cmTC_53642_dependency_info.dat -o /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/Debug/cmTC_53642
+        
+        RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/Debug/cmTC_53642 (in target 'cmTC_53642' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh
+            builtin-RegisterExecutionPolicyException /Users/jaychen/Desktop/CS184/hw1-rasterizer-sp24-j-c/xcode/CMakeFiles/CMakeScratch/TryCompile-J3ytPh/Debug/cmTC_53642
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+...

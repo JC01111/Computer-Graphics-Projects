@@ -1,0 +1,14 @@
+Target dependency graph (5 targets)
+Target 'quad_test' in project 'HW0'
+➜ Explicit dependency on target 'glew' in project 'HW0'
+➜ Explicit dependency on target 'glfw' in project 'HW0'
+➜ Explicit dependency on target 'CGL' in project 'HW0'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'HW0'
+Target 'glfw' in project 'HW0'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'HW0'
+Target 'CGL' in project 'HW0'
+➜ Explicit dependency on target 'glew' in project 'HW0'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'HW0'
+Target 'glew' in project 'HW0'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'HW0'
+Target 'ZERO_CHECK' in project 'HW0' (no dependencies)

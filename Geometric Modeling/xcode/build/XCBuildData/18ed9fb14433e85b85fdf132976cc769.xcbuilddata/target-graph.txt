@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+Target 'meshedit' in project 'ColladaViewer'
+➜ Explicit dependency on target 'glew' in project 'ColladaViewer'
+➜ Explicit dependency on target 'glfw' in project 'ColladaViewer'
+➜ Explicit dependency on target 'CGL' in project 'ColladaViewer'
+Target 'CGL' in project 'ColladaViewer'
+➜ Explicit dependency on target 'glew' in project 'ColladaViewer'
+Target 'glew' in project 'ColladaViewer' (no dependencies)
+Target 'glfw' in project 'ColladaViewer' (no dependencies)
