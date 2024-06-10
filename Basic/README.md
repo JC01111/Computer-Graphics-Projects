@@ -1,4 +1,4 @@
-# HW0 - Getting Started
+# Getting Started
 
 ## Part 1 - Setting up your machine and running the project
 
@@ -44,5 +44,3 @@ Take a look at the ```render``` function in ```quad_test.cpp```. Notice the foll
 
 With the above setup, if we specify eight vertices, our computer will render one quad with the first four vertices, and another quad with the second four vertices (One can do the same for triangles with ```glBegin(GL_TRIANGLES)```, which uses three vertices per triangle). Try modifying the given render code to draw "something interesting". (Note: If you want to disable the textures, you'll need to comment out the line ```glBindTexture(GL_TEXTURE_2D, texture)``` in the beginning of the ```render``` function) It could be a cool picture, your name, an interesting pattern... Feel free to share your creative work on Ed! There should be a thread where you can share your creation.
 
-## Submission
-There is no graded submission for HW 0. However, we highly recommend that you finish HW 0, to prevent any issues when you start on future homework assignments for this class.
