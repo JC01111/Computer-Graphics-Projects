@@ -1,8 +1,12 @@
 # Computer-Graphics-Projects
+
 **Description**: Projects about computer graphics include upsampling, rasterizing, and geometric modeling techniques (Bezier curves and surfaces using de Casteljau algorithm).
 
-### Configuration
+### Contents
+- [Rasterizer](https://github.com/JC01111/Computer-Graphics-Projects/blob/55a2446c596cd7c4a798589a069dc501ba5a2b0a/Rasterizer/README.md)
+- [Geometric Modeling](https://cal-cs184-student.github.io/hw2-meshedit-sp24-j-c-1/)
 
+### Configuration
 Look at this [Tutorial](https://www.youtube.com/watch?v=9EADCyN_Fek) if you want to skip reading or you have any problems with setting up.
 
 1. Make sure that the latest Xcode.app is installed through the Mac app store
